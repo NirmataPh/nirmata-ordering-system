@@ -1,13 +1,9 @@
 // ============================================================
 // NIRMATA ORDERING SYSTEM - Supabase connection + form handler
 // ============================================================
-// PALITAN muna ang dalawang linya sa ibaba gamit ang sarili mong
-// Supabase Project URL at anon public key.
-// Makikita mo ito sa Supabase Dashboard > Project Settings > API
-// ============================================================
 
-const SUPABASE_URL = "PASTE_YOUR_SUPABASE_PROJECT_URL_HERE";
-const SUPABASE_ANON_KEY = "PASTE_YOUR_SUPABASE_ANON_KEY_HERE";
+const SUPABASE_URL = "https://ziyxrzqyqpsfupvmmavn.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_wtS_Buq5Xjbc7pPSgNdnvQ_0Q5StylP";
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
